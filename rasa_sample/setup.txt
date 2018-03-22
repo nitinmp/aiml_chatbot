@@ -1,0 +1,6 @@
+sudo apt-get install python3-setuptools
+sudo easy_install3 pip
+sudo pip3.5 install rasa_nlu
+sudo pip3.5 install rasa_nlu[spacy]
+sudo python3 -m spacy download en_core_web_md
+sudo python3 -m spacy link en_core_web_md en
