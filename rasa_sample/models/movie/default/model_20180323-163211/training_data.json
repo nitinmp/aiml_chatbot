@@ -1,0 +1,283 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [],
+        "text": "i'm looking for a movie"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "location",
+            "end": 41,
+            "start": 31,
+            "value": "gachibowli"
+          }
+        ],
+        "text": "i'm looking for a movie in the gachibowli"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "language",
+            "end": 23,
+            "start": 18,
+            "value": "hindi"
+          },
+          {
+            "entity": "location",
+            "end": 43,
+            "start": 33,
+            "value": "gachibowli"
+          }
+        ],
+        "text": "i'm looking for a hindi movie in gachibowli"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yeah"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "language",
+            "end": 15,
+            "start": 10,
+            "value": "hindi"
+          },
+          {
+            "entity": "genre",
+            "end": 22,
+            "start": 16,
+            "value": "action"
+          },
+          {
+            "entity": "location",
+            "end": 53,
+            "start": 40,
+            "value": "jubilee hills"
+          }
+        ],
+        "text": "show me a hindi action movie running in jubilee hills"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "end"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "language",
+            "end": 23,
+            "start": 17,
+            "value": "telugu"
+          },
+          {
+            "entity": "location",
+            "end": 51,
+            "start": 41,
+            "value": "gachibowli"
+          }
+        ],
+        "text": "i am looking for telugu movie running in gachibowli"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [],
+        "text": "search for movie"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "location",
+            "end": 26,
+            "start": 16,
+            "value": "gachibowli"
+          }
+        ],
+        "text": "anywhere in the gachibowli"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "language",
+            "end": 6,
+            "start": 0,
+            "value": "telugu"
+          },
+          {
+            "entity": "genre",
+            "end": 13,
+            "start": 7,
+            "value": "comedy"
+          }
+        ],
+        "text": "telugu comedy movie"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "great"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "location",
+            "end": 45,
+            "start": 32,
+            "value": "jubilee hills"
+          },
+          {
+            "entity": "language",
+            "end": 14,
+            "start": 9,
+            "value": "hindi"
+          }
+        ],
+        "text": "get me a hindi movie running in jubilee hills"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "language",
+            "end": 14,
+            "start": 9,
+            "value": "hindi"
+          },
+          {
+            "entity": "genre",
+            "end": 21,
+            "start": 15,
+            "value": "comedy"
+          }
+        ],
+        "text": "search a hindi comedy movie"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "language",
+            "end": 26,
+            "start": 21,
+            "value": "hindi"
+          },
+          {
+            "entity": "",
+            "end": 11,
+            "start": 5,
+            "value": "comedy"
+          }
+        ],
+        "text": "find comedy movie of hindi language"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "entity": "location",
+            "end": 40,
+            "start": 30,
+            "value": "gachibowli"
+          },
+          {
+            "entity": "language",
+            "end": 5,
+            "start": 0,
+            "value": "hindi"
+          },
+          {
+            "entity": "genre",
+            "end": 12,
+            "start": 6,
+            "value": "action"
+          }
+        ],
+        "text": "hindi action movie running in gachibowli"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}
