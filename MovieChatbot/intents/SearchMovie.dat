@@ -1,0 +1,4 @@
+Search $Theater in $Location
+Search $Movie in $Theater
+Search $Movie in $Location
+Search $Language movies
