@@ -46,7 +46,36 @@ class Getconfirmation(Context):
 		self.lifespan = 1
 		self.name = 'Getconfirmation'
 		self.active = True
-                        
+
+class GetLocation(Context):
+	def __init__(self):
+		print('Hi')
+		self.lifespan = 1
+		self.name = 'GetLocation'
+		self.active = True
+
+class GetRestaruntLocation(Context):
+	def __init__(self):
+		print('Hi')
+		self.lifespan = 1
+		self.name = 'GetRestaruntLocation'
+		self.active = True
+
+class GetCostType(Context):
+	def __init__(self):
+		print('Hi')
+		self.lifespan = 1
+		self.name = 'GetCostType'
+		self.active = True
+
+class GetCuisine(Context):
+	def __init__(self):
+		print('Hi')
+		self.lifespan = 1
+		self.name = 'GetCuisine'
+		self.active = True
+
+		
 class IntentComplete(Context):
 
 	def __init__(self):
