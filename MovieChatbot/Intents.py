@@ -2,8 +2,9 @@ from abc import ABCMeta, abstractmethod
 class Intent(object):
 
 
-	def __init__(self, name, params, action):
+	def __init__(self, name,englishname,params, action):
 		self.name = name
+		self.englishname = englishname
 		self.action = action
 		self.params = []
 		for param in params:

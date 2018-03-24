@@ -1,4 +1,15 @@
-Search $Theater in $Location
-Search $Movie in $Theater
-Search $Movie in $Location
-Search $Language movies
+I want to watch movie
+List movies and Theatres
+Search $language movie
+Search  language movies
+Search $language movies
+Search $genre language movies
+Search genre movies
+Search $Actor movies
+Search Actor
+Search $language movies $date
+Search  movies by date
+
+
+
+
