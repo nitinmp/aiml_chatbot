@@ -26,7 +26,6 @@ class FirstGreeting(Context):
 class Getconfirmation(Context):
 
 	def __init__(self):
-		print('Hi')
 		self.lifespan = 1
 		self.name = 'Getconfirmation'
 		self.active = True
