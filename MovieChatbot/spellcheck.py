@@ -45,7 +45,8 @@ def split_line(text):
 	# for each word in the line:
 	for word in words:
 		#x =  re.sub(r'(.)\1+', r'\1\1', word)  
-		x =  re.sub(r'(.)\[^A-Za-z0-9]+', r'\1\1', re.sub('[^A-Za-z0-9]+', '', word))          
+		#x =  re.sub(r'(.)\[^A-Za-z0-9]+', r'\1\1', re.sub('[^A-Za-z0-9]+', '', word))          
+		x =  re.sub(r'(.)\1+', r'\1\1', re.sub('[^A-Za-z0-9]+', '', word))  
 		#re.sub('[^A-Za-z0-9]+', '', 'Oo%^rder')
 		# print the word
 		#mylist = []
